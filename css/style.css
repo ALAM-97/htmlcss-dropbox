@@ -15,14 +15,9 @@
     clear: both;
 }
 
-html {   /* debug */
-    background-color: sienna;
-}
-
 .btn {
-    padding: 5px 20px;
+    padding: 10px 20px;
     text-decoration: none;
-    font-size: 13px;
 }
 
 .btn-blue {
@@ -30,7 +25,16 @@ html {   /* debug */
     color: white;
 }
 
-/* HEADER */
+.btn-small {
+    padding: 7px 20px;
+    font-size: 13px;
+}
+
+html {
+    background-color: white;
+}
+
+/* HEADER NAV MENU*/
 
 nav.nav-left, nav.nav-right {
     display: inline-block;
@@ -64,4 +68,50 @@ header nav ul {
     padding: 0 0;
 }
 
+/* HEADER HERO CONTENT */
 
+.hero-background {
+    background-color: #b4d0e7;
+    padding: 25px;
+}
+
+.hero-content {
+    margin: auto;
+    max-width: 80%;
+    height: 570px;   /* debug */
+}
+
+.hero-content h1 {
+    font-size: 60px;
+    font-weight: 700;
+    padding: 50px 15px 20px 0;
+}
+
+.hero-info-left {
+    max-width: 33%;
+    float: left;
+}
+
+.hero-info-left p {
+    font-size: 14px;
+    font-weight: 600;
+    padding-bottom: 35px;
+    padding-top: 25px;
+}
+
+.hero-info-left i {
+    font-size: 40px;
+    padding-top: 10px;
+}
+
+.hero-img {
+    float: left;
+    max-width: 65%;
+    padding-left: 30px;
+}
+
+.hero-img img {
+    width: 100%;
+    position: relative;
+    bottom: -30px;
+}
