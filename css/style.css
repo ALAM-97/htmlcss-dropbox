@@ -78,7 +78,7 @@ header nav ul {
 
 .hero-content {
     margin: auto;
-    max-width: 80%;
+    width: 80%;
     height: 570px;   
 }
 
@@ -89,7 +89,7 @@ header nav ul {
 }
 
 .hero-info-left {
-    max-width: 33%;
+    width: 33%;
     float: left;
 }
 
@@ -106,20 +106,19 @@ header nav ul {
 
 .hero-img {
     float: left;
-    max-width: 65%;
+    width: 65%;
     padding-left: 30px;
 }
 
 .hero-img img {
-    width: 100%;
-    position: relative;
-    bottom: -30px;
+    width: 700px;
+    padding-top: 30px;
 }
 
 /* MAIN SECTION */
 
 section .main-content {
-    height: 800px;
+    height: 700px;
     width: 65%;
     margin: auto;
     margin-top: 150px;
