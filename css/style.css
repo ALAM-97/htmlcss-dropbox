@@ -7,4 +7,61 @@
     font-family: 'Open Sans', sans-serif;
 }
 
+/* COMMON */
+
+.clearfix::after {
+    content: "";
+    display: table;
+    clear: both;
+}
+
+html {   /* debug */
+    background-color: sienna;
+}
+
+.btn {
+    padding: 5px 20px;
+    text-decoration: none;
+    font-size: 13px;
+}
+
+.btn-blue {
+    background-color: #0061ff;
+    color: white;
+}
+
 /* HEADER */
+
+nav.nav-left, nav.nav-right {
+    display: inline-block;
+    width: 50%;
+    background-color: white
+}
+
+nav.nav-left {
+    text-align: left;
+}
+
+nav.nav-right {
+    text-align: right;
+}
+
+header nav ul li, header nav img, header nav ul {
+    display: inline-block;
+    vertical-align: middle;
+    font-weight: 600;
+}
+
+header nav ul li {
+    padding: 20px 20px;
+}
+
+header nav img {
+    padding: 0 15px;
+}
+
+header nav ul {
+    padding: 0 0;
+}
+
+
