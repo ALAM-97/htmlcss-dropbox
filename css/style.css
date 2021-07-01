@@ -31,8 +31,8 @@
     font-size: 13px;
 }
 
-html {
-    background-color: white;
+.blue {
+    color: #0061ff;
 }
 
 /* HEADER NAV MENU*/
@@ -122,7 +122,7 @@ section .main-content {
     width: 65%;
     margin: auto;
     margin-top: 150px;
-    background-color: tomato;
+    /* background-color: tomato; */
 }
 
 section .main-content h2 {
@@ -138,12 +138,13 @@ section .main-content h2 {
 .left-col, .center-col, .right-col {
     float: left;
     width: calc(100% / 3 - 20px);
-    min-height: 700px;
+    min-height: 900px;
     margin-top: 25px;
+    border: 1px solid #d0d0d3;
 }
 
 .left-col {
-    background-color: teal;
+    background-color: white;   
 }
 
 .center-col {
@@ -154,3 +155,64 @@ section .main-content h2 {
 .right-col {
     background-color: turquoise;
 }
+
+/* COLUMNS */
+
+.col-title {
+    text-align: center;
+    padding: 10px 0;
+    border-bottom: 1px solid #d0d0d3;
+}
+
+.col-content {
+    padding: 30px 20px 20px 20px;
+    font-size: 13px;
+}
+
+.col-content h3 {
+    font-size: 27px;
+    font-weight: 800;
+}
+
+div.price {
+    padding: 20px 0 15px 0;
+    font-weight: 800;
+}
+
+.col-content p {
+    padding: 15px 0 10px 0;
+}
+
+p.month {
+    color: #8d99a3;
+    padding-bottom: 30px;
+}
+
+.col-content ul li span {
+    padding-left: 17px;
+}
+
+.col-btn {
+    display: inline-block;
+    text-align: center;
+    width: 100%;
+    margin-top: 40px;
+    margin-bottom: 15px;
+}
+
+.col-content hr {
+    width: 25%;
+    margin-top: 20px;
+}
+
+.col-content h5 {
+    font-size: 16px;
+    font-weight: 800;
+    margin-top: 35px;
+}
+
+.col-content ul li {
+    list-style: none;
+    padding-top: 25px;
+}
+
