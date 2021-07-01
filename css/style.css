@@ -5,6 +5,7 @@
     padding: 0;
     box-sizing: border-box;
     font-family: 'Open Sans', sans-serif;
+    font-weight: 600; 
 }
 
 /* COMMON */
@@ -78,7 +79,7 @@ header nav ul {
 .hero-content {
     margin: auto;
     max-width: 80%;
-    height: 570px;   /* debug */
+    height: 570px;   
 }
 
 .hero-content h1 {
@@ -94,7 +95,6 @@ header nav ul {
 
 .hero-info-left p {
     font-size: 14px;
-    font-weight: 600;
     padding-bottom: 35px;
     padding-top: 25px;
 }
@@ -114,4 +114,44 @@ header nav ul {
     width: 100%;
     position: relative;
     bottom: -30px;
+}
+
+/* MAIN SECTION */
+
+section .main-content {
+    height: 800px;
+    width: 65%;
+    margin: auto;
+    margin-top: 150px;
+    background-color: tomato;
+}
+
+section .main-content h2 {
+    font-size: 35px;
+    font-weight: 800;
+    padding-bottom: 40px;
+}
+
+.radio-btn {
+    padding-right: 20px;
+}
+
+.left-col, .center-col, .right-col {
+    float: left;
+    width: calc(100% / 3 - 20px);
+    min-height: 700px;
+    margin-top: 25px;
+}
+
+.left-col {
+    background-color: teal;
+}
+
+.center-col {
+    background-color: thistle;
+    margin: 25px 30px 0 30px;
+}
+
+.right-col {
+    background-color: turquoise;
 }
