@@ -12,7 +12,7 @@ body {
     font-family: 'Open Sans', sans-serif;
     font-weight: 600;
     font-size: 12px;
-    padding-bottom: 1000px;  /* debug*/
+    margin-bottom: 500px;   /* debug*/
 }
 
 .clearfix::after {
@@ -42,6 +42,7 @@ body {
 }
 
 .blue {
+    font-size: 14px;
     color: #0061ff;
 }
 
@@ -342,5 +343,113 @@ p.month {
 .business-info p {
     font-size: 15px;
     padding-top: 30px;
-    padding-bottom: 80px;
 }
+
+.business-margin {
+    padding-top: 80px;
+}
+
+/* QUADRATI */
+
+.sponsor {
+    position: relative;
+    width: 100%;
+    padding-top: 40px; 
+    height: 100%; 
+    /* background-color: darkmagenta; */
+}
+
+.box-section {
+    height: 100%;
+}
+
+.sponsor .box-section .mid-box {
+    height: 100%;
+    padding: 100px 50px;
+}
+
+.squares {
+    float: right;
+    width: 30%;
+}
+
+.mid-box {
+    float: right;
+    width: 40%;
+    background-color: #f5f5f5;
+}
+
+.square-box {
+    position: relative; 
+    width: 50%;   
+    overflow: hidden;      
+    float: left; 
+}  
+
+.squares.f-left {
+    float: left;
+}
+
+.squares.f-right {
+    float: left;
+}
+
+.square-box:before {      
+    content:"";      
+    display: block;      
+    padding-top: 100%;  
+}  
+
+.square-content {      
+    position: absolute;     
+    top: 0px;      
+    left: 0px;      
+    bottom: 0px;      
+    right: 0px;      
+}
+
+.square-content img { 
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    display: table;      
+    width: 50%;
+} 
+
+.square-content.green {
+    border: 10px solid #d0e9cd;
+    background-color: #a2d39b;
+}
+
+.square-content.bordeaux {
+    background-color: #61082b;
+}
+
+.square-content.red {
+    background-color: #d5001f;
+}
+
+.square-content.lightblue {
+    background-color: #b4d0e7;
+}
+
+.square-content.blue {
+    background-color: #0093ce;
+}
+
+.square-content.redorange {
+    background-color: #ff1c1c;
+}
+
+.square-content.darkblue {
+    background-color: #0d2481;
+}
+
+.square-content.yellow {
+    background-color: #ffd830;
+}
+
+
+
+
