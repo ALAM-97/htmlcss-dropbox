@@ -306,7 +306,8 @@ p.month {
 }
 
 .partner-text p {
+    font-size: 15px;
     padding-top: 25px;
-    padding-bottom: 30px;
+    padding-bottom: 35px;
     line-height: 30px;
 }
