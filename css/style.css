@@ -514,12 +514,16 @@ footer {
     background-color: black;
 }
 
+.footer-content {
+    color: white;
+    margin-left: 200px;
+}
+
 .footer-dropbox, .footer-products, .footer-agency, .footer-support, .footer-community {
     float: left;
     width: calc(100% / 5 - 50px);
-    color: white;
     padding-top: 50px;
-    margin-left: 40px;
+    padding-bottom: 100px;
 }
 
 .footer-content div h5 {
@@ -529,8 +533,18 @@ footer {
 
 .footer-content ul {
     list-style: none;
-    line-height: 25px;    
+    line-height: 25px;  
 }
+
+.footer-content hr {
+    width: 10%;
+    margin-bottom: 30px;
+}
+
+.footer-bot {
+    color: #999999;
+}
+
 
 
 
