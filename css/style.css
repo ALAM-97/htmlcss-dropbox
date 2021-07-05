@@ -479,6 +479,32 @@ p.month {
     padding: 7px 65px;
 }
 
+/* FAQ */
+section .faq {
+    margin: 100px 0;
+}
+.faq div h3 {
+    font-size: 25px;
+    padding-bottom: 40px;
+}
+
+.faq ul li:first-child {
+    border-top: 1px solid #dcdcde;
+}
+
+.faq ul li{
+    font-weight: 700;
+    padding-top: 35px;
+    padding-bottom: 35px;
+    border-bottom: 1px solid #dcdcde;
+    list-style: none;
+}
+
+.faq .fa-chevron-down {
+    float: right;
+    padding-right: 35px;
+}
+
 
 
 
