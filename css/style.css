@@ -63,6 +63,7 @@ body {
     width: 90%;
 }
 
+
 /* HEADER NAV MENU*/
 
 .fixed {
@@ -543,6 +544,11 @@ footer {
 
 .footer-bot {
     color: #999999;
+}
+
+.footer-content ul li a {
+    color: white;
+    text-decoration: none;
 }
 
 
