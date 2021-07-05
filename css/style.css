@@ -11,8 +11,7 @@
 body {
     font-family: 'Open Sans', sans-serif;
     font-weight: 600;
-    font-size: 12px;
-    margin-bottom: 500px;   /* debug*/
+    font-size: 12px; 
 }
 
 .clearfix::after {
@@ -57,6 +56,11 @@ body {
 
 .font-15px {
     font-size: 15px;
+}
+
+.hero-content, .footer-content {
+    margin: auto;
+    width: 90%;
 }
 
 /* HEADER NAV MENU*/
@@ -114,11 +118,8 @@ header nav ul {
 }
 
 .hero-content {
-    margin: auto;
-    width: 90%;
     padding-left: 150px;
     padding-top: 80px;
-    /* height: 570px;    */
 }
 
 .hero-content h1 {
@@ -482,6 +483,7 @@ p.month {
 /* FAQ */
 section .faq {
     margin: 100px 0;
+
 }
 .faq div h3 {
     font-size: 25px;
@@ -505,6 +507,30 @@ section .faq {
     padding-right: 35px;
 }
 
+/* FOOTER TOP */
+
+footer {
+    height: 400px;
+    background-color: black;
+}
+
+.footer-dropbox, .footer-products, .footer-agency, .footer-support, .footer-community {
+    float: left;
+    width: calc(100% / 5 - 50px);
+    color: white;
+    padding-top: 50px;
+    margin-left: 40px;
+}
+
+.footer-content div h5 {
+    font-size: 20px;
+    padding-bottom: 15px;
+}
+
+.footer-content ul {
+    list-style: none;
+    line-height: 25px;    
+}
 
 
 
