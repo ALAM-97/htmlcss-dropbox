@@ -20,6 +20,13 @@ body {
     clear: both;
 }
 
+.col-btn {
+    display: inline-block;
+    text-align: center;
+    width: 100%;
+    margin-bottom: 15px;
+}
+
 .btn-white {
     background-color: white;
     color: black;
@@ -63,6 +70,10 @@ body {
     width: 90%;
 }
 
+body ul {
+    list-style: none;
+}
+
 
 /* HEADER NAV MENU*/
 
@@ -104,22 +115,17 @@ header nav ul li a {
 }
 
 header nav img {
-    padding: 0 15px;
-}
-
-header nav ul {
-    padding: 0 0;
+    padding: 0px 15px;
 }
 
 /* HEADER HERO CONTENT */
 
 .hero-background {
     background-color: #b4d0e7;
-    /* padding: 25px; */
 }
 
 .hero-content {
-    padding-left: 150px;
+    padding-left: 140px;
     padding-top: 80px;
 }
 
@@ -160,8 +166,7 @@ header nav ul {
 .hero-img img {
     position: relative;
     bottom: -60px;
-    width: 700px;
-    /* padding-top: 30px; */
+    width: 90%;
 }
 
 /* MAIN SECTION */
@@ -211,10 +216,6 @@ div.price {
     font-weight: 800;
 }
 
-.col-content p {
-    padding: 15px 0 10px 0;
-}
-
 p.month {
     color: #8d99a3;
     padding-bottom: 30px;
@@ -222,13 +223,6 @@ p.month {
 
 .col-content ul li span {
     padding-left: 17px;
-}
-
-.col-btn {
-    display: inline-block;
-    text-align: center;
-    width: 100%;
-    margin-bottom: 15px;
 }
 
 .col-content hr {
@@ -243,7 +237,6 @@ p.month {
 }
 
 .col-content ul li {
-    list-style: none;
     padding-top: 25px;
 }
 
@@ -274,10 +267,6 @@ p.month {
     margin-bottom: 15px;
 }
 
-.bottom-col .col-content {
-    padding: 30px 0 20px 20px;
-}
-
 .bottom-col-right .btn {
     font-size: 13px;
 }
@@ -288,10 +277,6 @@ p.month {
 }
 
 /* PARTNER SECTION */
-
-.business-info {
-    width: 100%;
-}
 
 .partner-section {
     width: 100%;
@@ -354,21 +339,16 @@ p.month {
     padding-top: 80px;
 }
 
-/* QUADRATI */
+/* LOGO SQUARES */
 
 .box-section {
     background-color: #f5f5f5;
     margin: 0;
-    
 }
 
 .sponsor {
-    position: relative;
     width: 100%;
     padding-top: 40px; 
-    height: 100%; 
-    margin: 0;
-    /* background-color: darkmagenta; */
 }
 
 .squares-left, .squares-right {
@@ -379,7 +359,6 @@ p.month {
 .mid-box {
     float: left;
     width: 40%;
-    background-color: #f5f5f5;
     padding: 45px 40px;
 }
 
@@ -398,11 +377,9 @@ p.month {
 
 .square-box {
     position: relative; 
-    width: 50%;   
-    overflow: hidden;      
+    width: 50%;        
     float: left; 
 }  
-
 
 .square-box:before {      
     content:"";      
@@ -500,7 +477,6 @@ section .faq {
     padding-top: 35px;
     padding-bottom: 35px;
     border-bottom: 1px solid #dcdcde;
-    list-style: none;
 }
 
 .faq .fa-chevron-down {
@@ -533,8 +509,12 @@ footer {
 }
 
 .footer-content ul {
-    list-style: none;
     line-height: 25px;  
+}
+
+.footer-content ul li a {
+    color: white;
+    text-decoration: none;
 }
 
 .footer-content hr {
@@ -546,10 +526,6 @@ footer {
     color: #999999;
 }
 
-.footer-content ul li a {
-    color: white;
-    text-decoration: none;
-}
 
 
 
