@@ -157,6 +157,10 @@ header nav img {
     padding-top: 10px;
 }
 
+.hero-info-left i:hover {
+    transform: scale(1.3);
+}
+
 .hero-img {
     float: left;
     width: 65%;
