@@ -484,6 +484,10 @@ section .faq {
     padding-right: 35px;
 }
 
+.faq .fa-chevron-down:hover {
+    transform: scale(1.5);
+    padding-right: 28px;
+}
 /* FOOTER TOP */
 
 footer {
